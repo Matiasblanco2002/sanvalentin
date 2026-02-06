@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Para ti 💖</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="card">
+
+    <!-- 1) Pantalla inicial -->
+    <section id="screen1" class="screen active">
+      <h1>Hola monita 🖤</h1>
+      <p>Te tengo una misión...</p>
+      <button class="btn" id="startBtn">Continuar ✨</button>
+      <p class="hint">(prometo que no es una encuesta)</p>
+    </section>
+
+    <!-- 2) Galería -->
+    <section id="screen2" class="screen">
+      <h2>Nuestros mini recuerdos 📸</h2>
+      <p class="sub">Desliza con calma</p>
+
+      <div class="gallery">
+        <div class="photo">
+          <img src="img/foto1.jpg" alt="Foto 1">
+          <span>Mi primera foto y favorita 🥹</span>
+        </div>
+        <div class="photo">
+          <img src="img/foto2.jpg" alt="Foto 2">
+          <span>Ultimas fotos antes de ser novios 👀🤍</span>
+        </div>
+        <div class="photo">
+          <img src="img/foto3.jpg" alt="Foto 3">
+          <span>Te amo tanto mona 🫶🏻🖤</span>
+        </div>
+      </div>
+
+      <button class="btn" id="toQuestionBtn">Siguiente 💌</button>
+    </section>
+
+    <!-- 3) La gran pregunta -->
+    <section id="screen3" class="screen">
+      <h2>Ok… momento serio</h2>
+      <p class="big">¿Quieres ser mi San Valentín? 😳🖤</p>
+
+      <div class="buttons">
+        <button class="btn yes" id="yesBtn">Sí, obvio </button>
+        <button class="btn no" id="noBtn">Déjame pensarlo 🙈</button>
+      </div>
+
+      <p class="hint">*Advertencia: el botón “pensarlo” es tímido*</p>
+    </section>
+
+    <!-- 4) Pantalla final -->
+    <section id="screen4" class="screen">
+      <h2>Sabía que dirías que sí 🥵</h2>
+      <p class="sub">Te amo monita, gracias x hacerme feliz.🖤</p>
+      <p class="sub">Ahora ven a reclamar tu premio: abrazo + besito + (proximamente el regalo) 👀</p>
+      <button class="btn" id="replayBtn">Ver de nuevo 🔁</button>
+    </section>
+
+  </div>
+
+  <div id="hearts"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
